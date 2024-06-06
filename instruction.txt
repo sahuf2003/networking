@@ -1,0 +1,13 @@
+socket programming 2 nodes or 2 socket 
+
+one listens to the port or ip and other reaches out to other to connect
+
+import socket
+
+import sys
+
+s= socket.socket(socke.AT_INET, socket.SOCK_STREAM) //inet is address family for ipv4, connection oriented tcp protocol connecting the socket before transmission
+
+ip is needed to connect the socket ping “website address”
+
+ip = socket.gethostbyname(”website” )
